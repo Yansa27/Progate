@@ -1,30 +1,30 @@
 /* Belajar css 1 Progate */
 /* cara memanggil class */
 .selected {
-    color: red;
+  color: red;
 }
 /* cara memanggil tag/element */
 h1 {
-    /* cara bikin warna background */
-    background-color: salmon;
-    /* cara atur tinggi dan lebar */
-    height: 90px;
-    width: 200px;
-    /* cara ubah warna */
-    color: red;
-    /* cara ubah ukuran text/inner */
-    font-size: 40px;
-    /* cara ubah jenis font */
-    font-family: serif;
+  /* cara bikin warna background */
+  background-color: salmon;
+  /* cara atur tinggi dan lebar */
+  height: 90px;
+  width: 200px;
+  /* cara ubah warna */
+  color: red;
+  /* cara ubah ukuran text/inner */
+  font-size: 40px;
+  /* cara ubah jenis font */
+  font-family: serif;
 }
 
 p {
-    color : blue;
-    font-size: 20px;
-    font-family: "Lucida Grande";
+  color: blue;
+  font-size: 20px;
+  font-family: "Lucida Grande";
 }
 
 img {
-    height: 50px;
-    width: 70px;
+  height: 50px;
+  width: 70px;
 }
