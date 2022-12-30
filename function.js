@@ -79,3 +79,16 @@ const getmax = (a , b , c , d) => {
 const max = getmax(number1 , number2 , number3 , number4);
 
 console.log(`Nilai terkecil adalah ${max}`);
+
+// kuis dicoding 
+const priceInJPY = 5000;
+
+let currency = new Map ([
+  ["USD" , 14000],
+  	["JPY" , 131],
+  	["SGD" , 11000],
+  	["MYR" , 3500]
+])
+const priceInIDR = currency.get["JPY"] * priceInJPY ;
+
+console.log(currency.get["JPY"]);
