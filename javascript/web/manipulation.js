@@ -1,11 +1,11 @@
 document.getElementById("blue").onclick = function () {
-    document.getElementById("image").src = "/image/blue.jpg";
+    document.getElementById("image").src = "javascript/web//image/blue.jpg";
 }
 
 document.getElementById("green").onclick = function () {
-    document.getElementById("image").src = "/image/green.jpg";
+    document.getElementById("image").src = "javascript/web//image/green.jpg";
 }
 
 document.getElementById("red").onclick = function () {
-    document.getElementById("image").src = "/image/red.jpg";
+    document.getElementById("image").src = "javascript/web//image/red.jpg";
 }
