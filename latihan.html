@@ -16,14 +16,22 @@
             const div = document.getElementById("container");
             const paragraph = document.createElement("p");
             const name = document.getElementById("name").value;
-                if (name % 3 == 0) {
+                if (name % 3 == 0 && name % 5 == 0 ) {
                     paragraph.innerHTML = "fizz";
                     div.append(paragraph); 
+                } else if (name % 5 == 0) {
+                    paragraph.innerHTML = "buzz"
+                    div.append(paragraph)
+                }  else if (name % 3 == 0)
+                {
+                    paragraph.innerHTML = "FizzBuzz";
+                    div.append(paragraph);
                 } else {
                     paragraph.innerHTML = "tidak valid";
                     paragraph.style.color = "red";
                     div.append(paragraph);
                 }
+               
         }
     </script>
 </body>
